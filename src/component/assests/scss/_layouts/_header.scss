@@ -1,0 +1,40 @@
+@use "../abstract/font" as f;
+.intro {
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 1px solid brown;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.63), transparent);
+  &--title {
+    padding: 10px;
+    p {
+      font-size: 50px;
+      padding: 20px;
+      //font-family: $monseret;
+    }
+    .text-own {
+      font-size: 20px;
+      padding: 20px;
+     // font-family: $monseret;
+      color: yellow;
+    }
+    .btn {
+      padding: 10px 30px;
+      margin-left: 20px;
+     // font-family: $monseret;
+      border-radius: 15px;
+      justify-content: center;
+      border: none;
+      border: 1px solid brown;
+    }
+    .btn:hover {
+      border: 2px solid brown;
+      font-weight: bold;
+    }
+  }
+  img {
+    height: 400px;
+    width: 400px;
+  }
+}

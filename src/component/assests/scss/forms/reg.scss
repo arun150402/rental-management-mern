@@ -1,0 +1,59 @@
+@use "../abstract/font" as f;
+.reg {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+.reg-tit {
+  display: flex;
+  justify-content: center;
+  color: brown;
+// font-family: f.$monseret;
+  font-weight: bold;
+  font-size: 25px;
+}
+.reg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 20px;
+  padding: 40px 100px;
+  background-color: rgb(219, 209, 209);
+  border-radius: 10px;
+  border: 2px solid brown;
+}
+.reg-ele {
+  p {
+    padding: 10px 0px;
+    //font-family: f.$monseret;
+    font-weight: 600;
+  }
+  .reg-txt {
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid grey;
+    transition: 200ms ease-in-out;
+    background-color: white;
+    border-radius: 5px;
+    //font-family: f.$monseret;
+  }
+  .reg-txt:focus {
+    border: 1px solid brown;
+  }
+}
+.reg-btn {
+  margin-top: 10px;
+  border: 1px solid brown;
+  padding: 10px;
+ // font-family: f.$monseret;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+.reg-btn:hover {
+  border: 1px solid black;
+  color: brown;
+  background-color: black;
+}

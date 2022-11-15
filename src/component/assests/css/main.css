@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap");
+.intro {
+  display: flex;
+  height: 500px;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 1px solid brown;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.63), transparent);
+}
+.intro--title {
+  padding: 10px;
+}
+.intro--title p {
+  font-size: 50px;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.intro--title .text-own {
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: yellow;
+}
+.intro--title .btn {
+  padding: 10px 30px;
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 15px;
+  justify-content: center;
+  border: none;
+  border: 1px solid brown;
+}
+.intro--title .btn:hover {
+  border: 2px solid brown;
+  font-weight: bold;
+}
+.intro img {
+  height: 400px;
+  width: 400px;
+}
+
+.navbar {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #642f3a;
+}
+.navbar--items {
+  display: flex;
+  align-items: center;
+}
+.navbar--links {
+  list-style: none;
+  justify-content: flex-end;
+}
+.navbar--links a {
+  color: white;
+  padding: 10px;
+}
+.navbar--links .btn1 {
+  margin-left: 30px;
+  padding: 10px 20px;
+  border: 1px solid #642f3a;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #642f3a;
+}
+.navbar--links .btn1:hover {
+  color: white;
+  background-color: #642f3a;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.navbar--links > a:hover {
+  color: green;
+}
+.navbar .logo {
+  margin-right: 100px;
+  padding: 20px;
+}
+.navbar .logo a {
+  color: white;
+  font-size: 25px;
+}
+.navbar .search {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.navbar .search--tbox {
+  padding: 8px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-style: none;
+  outline: none;
+}
+.navbar .search--btn {
+  border: none;
+  background-color: white;
+  font-size: 10px;
+  padding: 0px 10px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.navbar .search--btn img {
+  margin-top: 5px;
+}
+.navbar .search--btn:hover {
+  cursor: pointer;
+}
+
+.switch {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+}
+.switch--card {
+  margin-right: 100px;
+  margin-top: -180px;
+  width: 750px;
+}
+.switch--card div {
+  padding: 10px;
+}
+.switch--card .card--title {
+  display: flex;
+  align-items: flex-start;
+}
+.switch--card .card--title div {
+  opacity: 0.9;
+  width: 64px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+}
+.switch--card .fld-t {
+  display: flex;
+  background-color: white;
+  opacity: 0.9;
+}
+.switch--card .fld-t .fd p {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.switch--card .fld-t .fd .t-inp {
+  outline: none;
+  border: none;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: 300m;
+}
+.switch--card .fld-t .fd .t-inp:focus {
+  border: 2px solid brown;
+}
+.switch--card .fld-l {
+  display: flex;
+  background-color: white;
+  opacity: 0.9;
+}
+.switch--card .fld-l .fd p {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.switch--card .fld-l .fd .l-inp {
+  outline: none;
+  border: none;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.switch--card .fld-l .fd .l-inp:focus {
+  border: 2px solid brown;
+}
+.switch--card .hid {
+  display: none;
+}
+
+.reg {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+
+.reg-tit {
+  display: flex;
+  justify-content: center;
+  color: brown;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.reg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 20px;
+  padding: 40px 100px;
+  background-color: #dbd1d1;
+  border-radius: 10px;
+  border: 2px solid brown;
+}
+
+.reg-ele p {
+  padding: 10px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.reg-ele .reg-txt {
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid grey;
+  transition: 200ms ease-in-out;
+  background-color: white;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.reg-ele .reg-txt:focus {
+  border: 1px solid brown;
+}
+
+.oneim{
+  width: 30px;
+}
+.bt{
+  margin-left: 30px;
+  padding: 10px 20px;
+  border: 1px solid #642f3a;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #642f3a;
+  background-color: white;
+}
+
+.reg-btn {
+  margin-top: 10px;
+  border: 1px solid brown;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+.reg-btn:hover {
+  border: 1px solid black;
+  color: brown;
+  background-color: black;
+}
+
+.mx_img {
+  position: relative;
+  width: 100%;
+}
+
+.log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.486);
+  padding: 20px;
+  width: 97%;
+  height: 100%;
+}
+.log-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+* a {
+  text-decoration: none;
+}
+
+.active {
+  display: block;
+  background-color: white;
+  border-top: 3px solid brown;
+}
+
+
+.gallery {
+ position: relative;
+ top: 10px;
+ left: 80px;
+ bottom: 0;
+ margin: 50px;
+ border: 1px solid;
+  border-radius: 20px;
+  float: left;
+  width: 300px;
+  padding: 20px;
+
+  
+}
+
+.gallery img {
+  width: 300px;
+  height: 280px;
+} 
+
+
+.galleryForBookPage {
+  position: relative;
+  top: 200px;
+  left: 80px;
+  bottom: 0;
+  margin: 50px;
+  border: 1px solid;
+   border-radius: 20px;
+   float: left;
+   width: 300px;
+   padding: 20px;
+ 
+   
+ }
+ .galleryForBookPage img {
+   width: 300px;
+   height: 280px;
+ } 
+ 
+
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+div.desc {
+  position: relative;
+  top: 5px;
+  padding: 15px;
+  text-align: center;
+}
+.statusLabel{
+  position: relative;
+  top: 10px;
+  left: 75px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  width: 20px;
+  background-color: #0cc8f7;
+}
+.statusLabel:hover{
+  background-color: green;
+  color: white;
+}
+
+.btdec{
+
+  color: darkmagenta;
+  padding: 7px;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-color: darkmagenta;
+  font-weight: 10px;
+
+}
+.btdec.hover{
+  cursor: pointer;
+}
+
+
+.up{
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+.btnrent {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 5px;
+	background-image:url(F:\\BOOTATHON-II\\rental-management\\src\\component\\images\\bbt.jpg) ;
+	border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+	transition: 500ms;
+  position: relative;
+  top: 7px;
+}
+
+.btnrent:after {
+	content: '';
+	position: absolute;
+	transform: translateX(-55px) translateY(-40px);
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: transparent;
+	box-shadow: 0px 0px 50px transparent;
+	transition: 500ms;
+}
+
+.btnrent:hover {
+	transform: translateY(-5px);
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+}
+
+.btnrent:hover:after {
+	background: white;
+	box-shadow: 0px 0px 20px #ffc421, 0px 0px 30px #ffc421, inset 0px 0px 10px #ffc421;
+	animation: spin 1s infinite linear;
+}
+
+@keyframes spin{
+	25%{transform: translateX(-25px) translateY(-35px);
+			width: 15px;
+			height: 15px;}
+	50% {transform: translateX(-55px) translateY(-30px);
+			width: 5px;
+			height: 5px;}
+	75% {transform: translateX(-85px) translateY(-35px);
+			width: 15px;
+			height: 15px;}
+}
+
+.btnrent:focus {
+	outline: none;
+}
+
+.ulSt{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.btnlogin{
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 20px;
+}
+.btnlogin:hover{
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.btnFarmer{
+  position: relative;
+  top: 150px;
+  left: 420px;
+  padding: 2px;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.btnFarmer:hover{
+  background-color: #00df0b;
+  color: white;
+  cursor: pointer;
+
+}
+.btnBack{
+  position: relative;
+  top: 120px;
+  left: -420px;
+  padding: 2px;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.btnBack:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.bgim{
+  background-image:url(F:\\BOOTATHON-II\\rental-management\\src\\component\\images\\ownerBg1.jpg) ;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.bgim2{
+  background-image:url(F:\\BOOTATHON-II\\rental-management\\src\\component\\images\\agriBg.jpg) ;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */

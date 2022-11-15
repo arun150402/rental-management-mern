@@ -1,0 +1,19 @@
+.mx_img {
+  position: fixed;
+  width: 100%;
+}
+.log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.486);
+  padding: 20px;
+  width: 97%;
+  height: 100%;
+  &-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+}

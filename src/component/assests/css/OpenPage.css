@@ -1,0 +1,361 @@
+.ulStyle {
+    list-style-type: none;
+    margin: 0;
+    padding:20px;
+    overflow: hidden;
+    background-color:  #642f3a;
+  }
+  
+  .liStyle {
+    float: left;
+  }
+  
+  .liStyle a {
+    position: relative;
+    left: 400px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  }
+
+  
+  .active {
+    background-color: white;
+    color: blue;
+  }
+
+  .butn1{
+
+    background-color: white;
+    color: #642f3a;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    left: 410px;
+    top: 5px;
+    width: 80px;
+    display: block;
+    text-align: center;
+    padding:11px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  
+    
+  }
+  .butn1 :hover{
+    color: white;
+    background-color: #642f3a;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  p{
+      color: white;
+      padding: 10px;
+      font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+  }
+  .head1{
+    color: white;
+    position: relative;
+    left: -10%;
+    top: 15px;
+    width:200px;
+    height: 10px;
+  }
+  .parent {
+    position: relative;
+    left: -60px;
+    width: 200px;
+    height: 60px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.navbar--1 {
+  position: relative;
+  left: -150px;
+  list-style: none;
+  justify-content: flex-end;
+}
+.navbar--1 a {
+  color: white;
+  padding: 10px;
+}
+.navbar--1 .btn1 {
+  margin-left: 30px;
+  padding: 10px 20px;
+  border: 1px solid #642f3a;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #642f3a;
+}
+.navbar--1 .btn1:hover {
+  color: white;
+  background-color: #642f3a;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.navbar--1 > a:hover {
+  color: green;
+}
+.up1{
+  background-image: url(F:\\BOOTATHON-II\\rental-management\\src\\component\\images\\bg.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.album{
+  background-image: url(F:\\BOOTATHON-II\\rental-management\\src\\component\\images\\bg2.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: '100vw';
+  height: '100vh';
+}
+.topDet{
+
+  color: white;
+  font-family: Bookman Old Style;
+}
+.Details{
+  display: inline;
+  font-family: Bookman Old Style;
+  text-indent: 100px;
+
+}
+.topDet2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+  padding: 10px;
+  border: 3px solid;
+  border-radius: 20px;
+  background-color: white;
+}
+.topDet3{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+}
+.ip1{
+  position: relative;
+  left: 130px;
+  height: 30px;
+  width: 330px;
+  border-radius: 10px;
+}
+.ip2{
+  position: relative;
+  left: 230px;
+  height: 30px;
+  width: 330px;
+  border-radius: 10px;
+}
+.ip3{
+  position: relative;
+  left: 390px;
+  height: 30px;
+  width: 330px;
+  color: white;
+}
+.ip3-1{
+position: relative;
+display: inline;
+left: 600px;
+background-color: white;
+padding: 4px;
+border-radius: 10px;
+}
+.ip3-Reg{
+  /* position: relative;
+display: inline; */
+background-color: white;
+padding: 4px;
+border-radius: 10px;
+}
+.ip4{
+  position: relative;
+  left: 660px;
+  height: 30px;
+  width: 130px;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+}
+.ip4:hover{
+  background-color: #7dff49;
+  cursor:pointer;
+}
+.ip5{
+position: relative;
+left: 350px;
+padding: 4px;
+border-radius: 10px;
+width: 330px;
+}
+
+.yourVehi{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  color: white;
+}
+.last{
+  position: relative;
+  left: 900px;
+}
+
+ .btOwner{
+   background-color: white;
+   color: black;
+   padding: 10px;
+
+ }
+ .button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+.lastBut {
+  padding: 15px;
+  text-align: center;
+}
+div.lastBut {
+  position: relative;
+  top: 20px;
+  left: 37px;
+  padding: 15px;
+  text-align: center;
+}
+.btnAvailable{
+  position: relative;
+  left: -35px;
+  padding: 10px;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  bottom: 10px;
+  border-radius: 20px;
+
+}
+.btnAvailable:hover{
+  background-color: green;
+  cursor: pointer;
+  color: white;
+}
+
+.picDetails{
+  position: relative;
+  top: 50px;
+  display: inline-flex;
+  /* background-color: #00DDEB; */
+}
+
+.headForBookPage{
+  background-color: #0092e7;
+  position: absolute;
+  left: 20px;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+}
+
+.firstBlk{
+  position: relative;
+  left: 0px;
+  font-family: Bookman Old Style;
+  text-indent: 100px;
+}
+.secondBlk{
+  position: relative;
+  left: 500px;
+}
+.vecImg{
+  width: 350px;
+  height: 360px;
+}
+
+.bookbtn{
+  position: relative;
+  top: 450px;
+  left: -80px;
+  background-color: #0092e7;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.bookbtn:hover{
+  cursor: pointer;
+  background-color: green;
+}
+
+.backBtn{
+  position: relative;
+  top: 450px;
+  left: -300px;
+  background-color: #0092e7;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.backBtn:hover{
+  cursor: pointer;
+  background-color: red;
+}

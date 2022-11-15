@@ -1,0 +1,78 @@
+@use "../abstract/font" as f;
+.switch {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+
+  &--card {
+    margin-right: 100px;
+    margin-top: -180px;
+    //background-color: rgb(148, 146, 146);
+    width: 750px;
+    div {
+      padding: 10px;
+    }
+    .card--title {
+      display: flex;
+      align-items: flex-start;
+
+      div {
+        opacity: 0.9;
+        width: 64px;
+        text-align: center;
+      //  font-family: f.$monseret;
+        padding: 10px 20px;
+      }
+    }
+    .fld-t {
+      display: flex;
+      background-color: white;
+      opacity: 0.9;
+      .fd {
+        p {
+          padding: 10px;
+          font-size: 15px;
+          font-weight: bold;
+          //font-family: f.$monseret;
+        }
+        .t-inp {
+          outline: none;
+          border: none;
+          padding: 5px 0px;
+          border-radius: 5px;
+          border: 1px solid black;
+          transition: 300m;
+        }
+        .t-inp:focus {
+          border: 2px solid brown;
+        }
+      }
+    }
+    .fld-l {
+      display: flex;
+      background-color: white;
+      opacity: 0.9;
+      .fd {
+        p {
+          padding: 10px;
+          font-weight: bold;
+          font-size: 15px;
+        //  font-family: f.$monseret;
+        }
+        .l-inp {
+          outline: none;
+          border: none;
+          padding: 5px 0px;
+          border-radius: 5px;
+          border: 1px solid black;
+        }
+        .l-inp:focus {
+          border: 2px solid brown;
+        }
+      }
+    }
+    .hid {
+      display: none;
+    }
+  }
+}

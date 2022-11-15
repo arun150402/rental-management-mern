@@ -1,0 +1,27 @@
+//Abstract
+@use "./abstract/variables";
+@use "./abstract/font";
+
+//Layouts
+@use "./_layouts/header";
+@use "./_layouts/navigation";
+
+//Components
+@use "./components/switch";
+
+//forms
+@use "./forms/reg.scss";
+@use "./forms/login.scss";
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  a {
+    text-decoration: none;
+  }
+}
+.active {
+  display: block;
+  background-color: white;
+  border-top: 3px solid brown;
+}
